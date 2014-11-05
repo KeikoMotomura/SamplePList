@@ -14,6 +14,8 @@
 		72AD411E1A08B76D00D2DF1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72AD411D1A08B76D00D2DF1D /* Images.xcassets */; };
 		72AD41211A08B76D00D2DF1D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72AD411F1A08B76D00D2DF1D /* LaunchScreen.xib */; };
 		72AD412D1A08B76D00D2DF1D /* SamplePListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AD412C1A08B76D00D2DF1D /* SamplePListTests.m */; };
+		72AD41371A08C22800D2DF1D /* FriendsPerArea.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72AD41361A08C22800D2DF1D /* FriendsPerArea.plist */; };
+		72AD41D61A0A060900D2DF1D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AD41D51A0A060900D2DF1D /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		72AD41261A08B76D00D2DF1D /* SamplePListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72AD412B1A08B76D00D2DF1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72AD412C1A08B76D00D2DF1D /* SamplePListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamplePListTests.m; sourceTree = "<group>"; };
+		72AD41361A08C22800D2DF1D /* FriendsPerArea.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FriendsPerArea.plist; sourceTree = "<group>"; };
+		72AD41D41A0A060900D2DF1D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		72AD41D51A0A060900D2DF1D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,8 @@
 				72AD41151A08B76D00D2DF1D /* AppDelegate.m */,
 				72AD41171A08B76D00D2DF1D /* ViewController.h */,
 				72AD41181A08B76D00D2DF1D /* ViewController.m */,
+				72AD41D41A0A060900D2DF1D /* DetailViewController.h */,
+				72AD41D51A0A060900D2DF1D /* DetailViewController.m */,
 				72AD411A1A08B76D00D2DF1D /* Main.storyboard */,
 				72AD411D1A08B76D00D2DF1D /* Images.xcassets */,
 				72AD411F1A08B76D00D2DF1D /* LaunchScreen.xib */,
@@ -98,6 +105,7 @@
 			children = (
 				72AD41111A08B76D00D2DF1D /* Info.plist */,
 				72AD41121A08B76D00D2DF1D /* main.m */,
+				72AD41361A08C22800D2DF1D /* FriendsPerArea.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72AD411C1A08B76D00D2DF1D /* Main.storyboard in Resources */,
+				72AD41371A08C22800D2DF1D /* FriendsPerArea.plist in Resources */,
 				72AD41211A08B76D00D2DF1D /* LaunchScreen.xib in Resources */,
 				72AD411E1A08B76D00D2DF1D /* Images.xcassets in Resources */,
 			);
@@ -222,6 +231,7 @@
 				72AD41191A08B76D00D2DF1D /* ViewController.m in Sources */,
 				72AD41161A08B76D00D2DF1D /* AppDelegate.m in Sources */,
 				72AD41131A08B76D00D2DF1D /* main.m in Sources */,
+				72AD41D61A0A060900D2DF1D /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +422,7 @@
 				72AD41321A08B76D00D2DF1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72AD41331A08B76D00D2DF1D /* Build configuration list for PBXNativeTarget "SamplePListTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +431,7 @@
 				72AD41351A08B76D00D2DF1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
